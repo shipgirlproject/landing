@@ -85,6 +85,12 @@ footer {
     background-color: rgba(var(--background-color));
 }
 
+@media screen and (max-width: 460px) {
+    footer {
+        flex-direction: column;
+    }
+}
+
 .footertitle {
     color: rgba(var(--text-color));
     font-size: 1em;
