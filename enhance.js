@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
     const copyright = document.getElementById("copyright")
-    const copyrightTextChunks = copyright.innerText.split(" ");
-    copyrightTextChunks[1] = new Date().getFullYear();
-    copyright.innerText = copyrightTextChunks.join(" ");
+    const copyrightText = copyright.innerText.replace("2018", new Date().getFullYear());
+    copyright.innerText = copyrightText;
 });
