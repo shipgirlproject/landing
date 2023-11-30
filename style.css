@@ -318,7 +318,7 @@ section {
     left: 50%;
     transform: translateX(-50%);
     top: calc(-125% + 0.2em + 0.2em + 1em + 5px);
-    margin-top: -5px;
+    margin-top: -6px;
     border: 5px solid;
     border-color: rgba(var(--background-color)) transparent transparent transparent;
     filter: invert(1);
